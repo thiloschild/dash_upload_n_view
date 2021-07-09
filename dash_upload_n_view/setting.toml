@@ -1,0 +1,44 @@
+# server settings
+host = "0.0.0.0"
+port = "8050"
+debug = true
+
+# app settings
+UPLOAD_DIRECTORY = "../app_uploaded_files/"
+PAGE_SIZE = 10
+
+
+### style
+
+# page style
+[page_style]
+margin = "3rem"
+
+# style table
+[table_style]
+width = "100%"
+overflow-x = "auto"
+
+[cell_style]
+backgroundColor = "#aabdbd"
+color = "#002029"
+padding = "0.4rem"
+border = "1px solid #002029"
+whiteSpace = "normal"
+height = "auto"
+
+[header_style]
+backgroundColor = "#002029"
+font-weight = "bold"
+color = "#f0f0fa"
+
+# upload style
+[upload]
+width = "100%"
+height = "60px"
+lineHeight = "60px"
+borderWidth = "1px"
+borderStyle = "dashed"
+borderRadius = "5px"
+textAlign = "center"
+margin = "10px"
