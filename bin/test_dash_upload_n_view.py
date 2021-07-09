@@ -8,10 +8,13 @@ import pandas as pd
 from dash_upload_n_view.functions import create_upload, create_table, parse_csv, read_settings
 
 
+
+
+
 # create the dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SOLAR])
 # read settings to the app
-app.settings = read_settings('./setting.toml')
+app.settings = read_settings('setting.toml')
 
 # define some id's
 upload_component_id = "uci"

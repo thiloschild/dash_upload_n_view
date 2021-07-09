@@ -1,1 +1,3 @@
-# dash_upoad_n_view
+### dash_upload_n_view
+
+Perfect thing to upload content unto a server.
