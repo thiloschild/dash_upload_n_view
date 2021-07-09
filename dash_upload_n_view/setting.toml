@@ -4,8 +4,7 @@ port = "8050"
 debug = true
 
 # app settings
-UPLOAD_DIRECTORY = "../app_uploaded_files/"
-PAGE_SIZE = 10
+PAGE_SIZE = 40
 
 
 ### style

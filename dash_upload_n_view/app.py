@@ -46,10 +46,10 @@ def parse_upload(filename, contents, n_clicks):
             # wrong file format -> return error message
             return dbc.Alert("You must select a csv!", color="primary")
         else:
-            return create_table(table_id, df)
+            return create_table(table_id, df, page_size=app.settings['PAGE_SIZE'])
     elif n_clicks != 0 and 'copy' in input_id:
         df = pd.read_clipboard(sep=',')
-        return create_table(table_id, df)
+        return create_table(table_id, df, page_size=app.settings['PAGE_SIZE'])
 
 
 # apply the layout to the app
